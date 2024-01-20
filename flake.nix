@@ -10,10 +10,10 @@
 			system = "x86_64-linux";
 			modules = [ ./alpha/configuration.nix ];
 		};
-	};
 
-	nixosConfigurations.beta = nixpkgs.lib.nixosSystem {
-		system = "x86_64-linux";
-		modules = [ ./beta/configuration.nix ];
+		nixosConfigurations.beta = nixpkgs.lib.nixosSystem {
+			system = "x86_64-linux";
+			modules = [ ./beta/configuration.nix ];
+		};
 	};
 }
