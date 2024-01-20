@@ -33,6 +33,11 @@
       fsType = "btrfs";
     };
 
+  fileSystems."/games2" =
+    { device = "/dev/disk/by-uuid/b51e1273-5350-4aa2-8933-54c10b65d1e5";
+      fsType = "ext4";
+    };
+
 
   swapDevices = [ ];
 
