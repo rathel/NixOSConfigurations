@@ -33,10 +33,10 @@
       fsType = "btrfs";
     };
 
-#   fileSystems."/games2" =
-#    { device = "/dev/disk/by-uuid/b51e1273-5350-4aa2-8933-54c10b65d1e5";
-#      fsType = "ext4";
-#    };
+   fileSystems."/games2" =
+    { device = "/dev/disk/by-uuid/26dc6831-91f9-4904-9fdf-708bd9d0cd66";
+      fsType = "ext4";
+    };
 
 
   swapDevices = [ ];
