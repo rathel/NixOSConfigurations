@@ -16,6 +16,8 @@
   };
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
 
   services.xserver = { 
     enable = true;
