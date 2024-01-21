@@ -57,9 +57,10 @@
 	};
 	services.xserver = { 
 		enable = true;
-		displayManager.defaultSession = "hyprland";
+		displayManager.defaultSession = "openbox";
 		displayManager.autoLogin.enable = true;
 		displayManager.autoLogin.user = "rathel";
+		windowManager.openbox.enable = true;
 	};
 	services.zerotierone.enable = true;
 	programs.hyprland = {
