@@ -57,7 +57,7 @@
 	};
 	services.xserver = { 
 		enable = true;
-		displayManager.defaultSession = "openbox";
+		displayManager.defaultSession = "none+openbox";
 		displayManager.autoLogin.enable = true;
 		displayManager.autoLogin.user = "rathel";
 		windowManager.openbox.enable = true;
