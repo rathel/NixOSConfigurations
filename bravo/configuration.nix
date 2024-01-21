@@ -22,7 +22,7 @@
 	hardware.bluetooth.enable = true;
 	hardware.bluetooth.powerOnBoot = true;
 
-	networking.hostName = "beta"; # Define your hostname.
+	networking.hostName = "bravo"; # Define your hostname.
 # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
 # Configure network proxy if necessary

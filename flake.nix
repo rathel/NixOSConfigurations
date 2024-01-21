@@ -17,7 +17,7 @@
 
 		nixosConfigurations.beta = nixpkgs.lib.nixosSystem {
 			inherit system;
-			modules = [ ./beta/configuration.nix ];
+			modules = [ ./bravo/configuration.nix ];
 		};
 	};
 }
