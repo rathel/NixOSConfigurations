@@ -86,6 +86,7 @@
 		neovim
 		parted
 			git
+			htop
 			wget
 			kitty
 			pulsemixer
