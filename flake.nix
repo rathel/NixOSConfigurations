@@ -11,12 +11,12 @@
 	in 
 	{
 		nixosConfigurations.alpha = nixpkgs.lib.nixosSystem {
-			system = { inherit system };
+			inherit system;
 			modules = [ ./alpha/configuration.nix ];
 		};
 
 		nixosConfigurations.beta = nixpkgs.lib.nixosSystem {
-			system = { inherit system };
+			inherit system;
 			modules = [ ./beta/configuration.nix ];
 		};
 	};
