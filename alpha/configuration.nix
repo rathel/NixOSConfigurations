@@ -150,7 +150,6 @@
       waybar
       wine
       wofi
-      tofi
       yt-dlp
       zoxide
 #geany-plugins
