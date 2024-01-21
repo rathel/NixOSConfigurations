@@ -6,13 +6,16 @@
 	};
 
 	outputs = { self, nixpkgs, home-manager, ... }: {
+	let
+	  system = "x86_64-linux";
+	in 
 		nixosConfigurations.alpha = nixpkgs.lib.nixosSystem {
-			system = "x86_64-linux";
+			system = { inherit system };
 			modules = [ ./alpha/configuration.nix ];
 		};
 
 		nixosConfigurations.beta = nixpkgs.lib.nixosSystem {
-			system = "x86_64-linux";
+			system = { inherit system };
 			modules = [ ./beta/configuration.nix ];
 		};
 	};
