@@ -83,13 +83,19 @@
 # $ nix search wget
 	environment.systemPackages = with pkgs; [
 #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-		neovim
-		parted
+			bat
+			fd
+			firefox
 			git
 			htop
-			wget
 			kitty
+			neovim
+			parted
 			pulsemixer
+			ripgrep
+			vivaldi
+			vivaldi-ffmpeg-codecs
+			wget
 	];
 
 # Some programs need SUID wrappers, can be configured further or are
