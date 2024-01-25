@@ -21,6 +21,7 @@
 	hardware.steam-hardware.enable = true;
 	hardware.bluetooth.enable = true;
 	hardware.bluetooth.powerOnBoot = true;
+	programs.starship.enable = true;
 
 	networking.hostName = "bravo"; # Define your hostname.
 # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -72,7 +73,7 @@
 	users.users.rathel = {
 		isNormalUser = true;
 		description = "rathel";
-		extraGroups = [ "networkmanager" "wheel" ];
+		extraGroups = [ "networkmanager" "wheel" "lp" ];
 		packages = with pkgs; [];
 	};
 
@@ -90,6 +91,8 @@
 			htop
 			kitty
 			neovim
+			picom
+			usbutils
 			parted
 			pulsemixer
 			ripgrep
