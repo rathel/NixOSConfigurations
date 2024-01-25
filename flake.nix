@@ -35,5 +35,18 @@
 			# 	}
 			 	];
 				};
+
+
+		nixosConfigurations.charlie = nixpkgs.lib.nixosSystem {
+			inherit system;
+			modules = [ ./charlie/configuration.nix 
+			# home-manager.nixosModules.home-manager {
+			# 		home-manager.useGlobalpkgs = true;
+			# 		home-manager.useUserPackages = true;
+			# 		home-manager.users = { inherit username;
+			# 		import = ./common-home.nix; };
+			# 	}
+			 	];
+				};
 	};
 }
