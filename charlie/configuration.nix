@@ -59,6 +59,39 @@
     LC_TIME = "en_US.UTF-8";
   };
 
+  security.rtkit.enable = true;
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+# If you want to use JACK applications, uncomment this
+#jack.enable = true;
+  };
+
+  programs.steam = {
+    enable = true;
+    remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+      dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+  };
+
+  programs.hyprland = { 
+    enable = true;
+    xwayland.enable = true;
+#    enableNvidiaPatches = true;
+  };
+
+
+  services = {
+    syncthing = {
+      enable = true;
+      user = "rathel";
+      dataDir = "/home/rathel/Documents";    # Default folder for new synced folders
+        configDir = "/home/rathel/Documents/.config/syncthing";   # Folder for Syncthing's settings and keys
+    };
+  };
+
+
   # Configure keymap in X11
   services.xserver = {
     layout = "us";
