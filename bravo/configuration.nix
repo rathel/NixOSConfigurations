@@ -15,9 +15,20 @@
 	boot.loader.efi.canTouchEfiVariables = true;
 	boot.kernelPackages = pkgs.linuxPackages_latest;
 
+	hardware.opengl = {
+	  ## radv: an open-source Vulkan driver from freedesktop
+	  driSupport = true;
+	  driSupport32Bit = true;
+	
+	  ## amdvlk: an open-source Vulkan driver from AMD
+	  extraPackages = [ pkgs.amdvlk ];
+	  extraPackages32 = [ pkgs.driversi686Linux.amdvlk ];
+	};
+
 	nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 	programs.steam.enable = true;
+	programs.steam.gamescopeSession.enable = true;
 	hardware.steam-hardware.enable = true;
 	hardware.bluetooth.enable = true;
 	hardware.bluetooth.powerOnBoot = true;
@@ -59,10 +70,17 @@
 	services.xserver = { 
 		enable = true;
 		displayManager.defaultSession = "none+openbox";
+		#displayManager.defaultSession = "hyprland";
 		displayManager.autoLogin.enable = true;
 		displayManager.autoLogin.user = "rathel";
 		windowManager.openbox.enable = true;
 	};
+#	services.cage = {
+#		user = "rathel";
+#		program = "${pkgs.steam}/bin/steam -tenfoot";
+#		enable = true;
+#	};
+	services.spotifyd.enable = true;
 	services.zerotierone.enable = true;
 	programs.hyprland = {
 		enable = true;
@@ -86,6 +104,7 @@
 #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
 			bat
 			fd
+			protonup-ng
 			firefox
 			git
 			htop
