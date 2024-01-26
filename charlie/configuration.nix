@@ -130,6 +130,7 @@
     git
     kitty
     lutris
+    mangohud
     microsoft-edge
     neovim
     ripgrep
