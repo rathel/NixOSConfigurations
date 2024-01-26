@@ -35,6 +35,11 @@
     displayManager.autoLogin.user = "rathel";
   };
 
+  fonts.packages = with pkgs; [
+    nerdfonts
+    intel-one-mono
+  ];
+
   networking.hostName = "charlie"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -86,7 +91,6 @@
 #    enableNvidiaPatches = true;
   };
 
-
   services = {
     syncthing = {
       enable = true;
@@ -95,7 +99,6 @@
         configDir = "/home/rathel/Documents/.config/syncthing";   # Folder for Syncthing's settings and keys
     };
   };
-
 
   # Configure keymap in X11
   services.xserver = {
@@ -121,19 +124,22 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-    wget
-    wofi
-    waybar
-    neovim
-    lutris
-    wine
-    ripgrep
-    fd
     bat
-    microsoft-edge
+    fd
     floorp
-    kitty
+    gcc
     git
+    kitty
+    lutris
+    microsoft-edge
+    neovim
+    ripgrep
+    swww
+    waybar
+    waypaper
+    wget
+    wine
+    wofi
   ];
 
   services.zerotierone.enable = true;
@@ -145,6 +151,8 @@
      enable = true;
      enableSSHSupport = true;
    };
+
+   programs.starship.enable = true;
 
   # List services that you want to enable:
 
