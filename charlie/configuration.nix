@@ -11,8 +11,12 @@
     ];
 
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
+  boot.loader.systemd-boot = { 
+  	enable = true;
+	configurationLimit = 10;
+	};
   boot.loader.efi.canTouchEfiVariables = true;
+
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
@@ -72,7 +76,8 @@
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-      dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+    gamescopeSession.enable = true;
   };
 
   programs.hyprland = { 
@@ -117,9 +122,21 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     wget
+    wofi
+    waybar
     neovim
+    lutris
+    wine
+    ripgrep
+    fd
+    bat
+    microsoft-edge
+    floorp
+    kitty
     git
   ];
+
+  services.zerotierone.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
