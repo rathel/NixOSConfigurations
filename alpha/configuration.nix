@@ -122,6 +122,7 @@
       lftp
       libreoffice-fresh
       lmms
+      element-desktop
       librewolf
       foot
       wezterm
