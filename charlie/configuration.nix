@@ -135,6 +135,7 @@
     neovim
     ripgrep
     swww
+    tmux
     waybar
     waypaper
     wget
