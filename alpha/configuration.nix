@@ -143,6 +143,7 @@
       libreoffice-fresh
       librewolf
       lmms
+      zellij
       lutris
       microsoft-edge
       mpv
