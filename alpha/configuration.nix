@@ -21,8 +21,8 @@
 
   services.xserver = { 
     enable = true;
-# displayManager.defaultSession = "none+awesome";
-    displayManager.defaultSession = "hyprland";
+    displayManager.defaultSession = "none+awesome";
+    #displayManager.defaultSession = "hyprland";
     windowManager.awesome.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
