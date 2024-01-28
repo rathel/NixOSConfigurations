@@ -126,60 +126,49 @@
       blender
       brave
       distrobox
+      element-desktop
       eza
       fastfetch 
       fd
       flameshot
       floorp 
-      gamescope
-      geany
+      fuse-common
       gimp
       git
       godot_4
       htop
-      #hyprpaper
-      swww
-      joshuto
+      jq
       kitty
       lftp
       libreoffice-fresh
-      lmms
-      ripgrep
-      element-desktop
       librewolf
-      foot
-      wezterm
-      fuse-common
-      jq
+      lmms
       lutris
       microsoft-edge
       mpv
       mumble
       nmap
-      phoronix-test-suite
       picom
-      protonup-qt
+      protonup-ng
       pulsemixer
       qemu
-      qutebrowser
       redshift
+      ripgrep
       rosegarden
       rpi-imager
-      sshfs
       spicetify-cli
       spotify
+      sshfs
       starship
       tealdeer
       variety
       vivaldi
       vivaldi-ffmpeg-codecs
       w3m 
-      waybar
       wine
       wofi
       yt-dlp
       zoxide
-#geany-plugins
       ];
   };
   fonts.packages = with pkgs; [
