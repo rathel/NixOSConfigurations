@@ -122,7 +122,7 @@
     packages = with pkgs; [ 
       ardour
       bat
-      betterbird
+      thunderbird
       blender
       brave
       distrobox
