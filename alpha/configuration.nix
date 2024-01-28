@@ -165,6 +165,7 @@
       redshift
       rosegarden
       rpi-imager
+      sshfs
       spicetify-cli
       spotify
       starship
