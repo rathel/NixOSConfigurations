@@ -143,6 +143,7 @@
       libreoffice-fresh
       librewolf
       lmms
+      ventoy-full
       zellij
       lutris
       microsoft-edge
