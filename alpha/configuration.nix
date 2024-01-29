@@ -122,7 +122,6 @@
     packages = with pkgs; [ 
       ardour
       bat
-      thunderbird
       blender
       brave
       distrobox
@@ -143,13 +142,12 @@
       libreoffice-fresh
       librewolf
       lmms
-      ventoy-full
-      zellij
       lutris
       microsoft-edge
       mpv
       mumble
       nmap
+      persepolis
       picom
       protonup-ng
       pulsemixer
@@ -163,13 +161,16 @@
       sshfs
       starship
       tealdeer
+      thunderbird
       variety
+      ventoy-full
       vivaldi
       vivaldi-ffmpeg-codecs
       w3m 
       wine
       wofi
       yt-dlp
+      zellij
       zoxide
       ];
   };
