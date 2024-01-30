@@ -143,10 +143,12 @@
       librewolf
       lmms
       lutris
+      lxappearance
       microsoft-edge
       mpv
       mumble
       nmap
+      nodejs
       persepolis
       picom
       protonup-ng
@@ -174,10 +176,12 @@
       zoxide
       ];
   };
+
   fonts.packages = with pkgs; [
   nerdfonts
   intel-one-mono
   ];
+
 #  home-manager.users.rathel = { pkgs, ... }: {
 #  programs.bash.enable = true;
 #  home.stateVersion = "23.11";
