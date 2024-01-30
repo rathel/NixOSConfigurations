@@ -22,12 +22,10 @@
   services.xserver = { 
     enable = true;
     #displayManager.defaultSession = "enlightenment";
-    #displayManager.defaultSession = "none+awesome";
-    displayManager.defaultSession = "none+jwm";
+    displayManager.defaultSession = "none+awesome";
     #displayManager.defaultSession = "hyprland";
     desktopManager.enlightenment.enable = true;
     windowManager.awesome.enable = true;
-    windowManager.jwm.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
   };
