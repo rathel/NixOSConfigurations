@@ -86,12 +86,6 @@
 #		enable = true;
 #	};
 
-	services = {
-		spotifyd = { 
-			enable = true;
-			};
-		};
-
 	services.zerotierone.enable = true;
 
 	programs.hyprland = {
@@ -127,6 +121,7 @@
 			protonup-ng
 			pulsemixer
 			ripgrep
+			spotifyd
 			tmux
 			usbutils
 			vivaldi
