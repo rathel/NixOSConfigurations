@@ -86,7 +86,12 @@
 #		enable = true;
 #	};
 
-	services.spotifyd.enable = true;
+	services = {
+		spotifyd = { 
+			enable = true;
+			user = "rathel";
+			};
+		};
 
 	services.zerotierone.enable = true;
 
