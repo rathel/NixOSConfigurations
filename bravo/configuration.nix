@@ -89,7 +89,6 @@
 	services = {
 		spotifyd = { 
 			enable = true;
-			user = "rathel";
 			};
 		};
 
