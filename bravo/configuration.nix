@@ -70,6 +70,7 @@
 		layout = "us";
 		xkbVariant = "";
 	};
+
 	services.xserver = { 
 		enable = true;
 		displayManager.defaultSession = "none+openbox";
@@ -78,13 +79,17 @@
 		displayManager.autoLogin.user = "rathel";
 		windowManager.openbox.enable = true;
 	};
+
 #	services.cage = {
 #		user = "rathel";
 #		program = "${pkgs.steam}/bin/steam -tenfoot";
 #		enable = true;
 #	};
+
 	services.spotifyd.enable = true;
+
 	services.zerotierone.enable = true;
+
 	programs.hyprland = {
 		enable = true;
 		xwayland.enable = true;
