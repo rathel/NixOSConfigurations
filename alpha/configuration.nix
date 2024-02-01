@@ -212,10 +212,20 @@
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
       dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
   };
+
   programs.firefox = { 
     enable = true;
     package = pkgs.firefox-devedition;
   };
+
+environment.variables = {
+  QT_QPA_PLATFORMTHEME = "wayland;xcb";
+  GBM_BACKEND = "nvidia-drm";
+  __GLX_VENDOR_LIBRARY_NAME = "nvidia";
+  ENABLE_VKBASALT = "1";
+  LIBVA_DRIVER_NAME = "nvidia";
+  WLR_NO_HARDWARE_CURSORS = "1";
+};
 
 # Some programs need SUID wrappers, can be configured further or are
 # started in user sessions.
