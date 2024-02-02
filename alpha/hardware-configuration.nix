@@ -21,6 +21,7 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "nvidia-drm.modeset=1" ];
 
+  hardware.pulseaudio.enable = false;
 
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/adfb0d8c-da1e-46f7-87a4-d580074a38c5";

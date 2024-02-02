@@ -24,10 +24,14 @@
     #displayManager.defaultSession = "enlightenment";
     displayManager.defaultSession = "none+awesome";
     #displayManager.defaultSession = "hyprland";
-    desktopManager.enlightenment.enable = true;
+    #desktopManager.enlightenment.enable = true;
     windowManager.awesome.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
+    #displayManager.gdm.enable = true;
+    #desktopManager.gnome.enable = true;
+    #displayManager.sddm.enable = true;
+    #desktopManager.plasma5.enable = true;
   };
 
   services.xserver.videoDrivers = ["nvidia"];
