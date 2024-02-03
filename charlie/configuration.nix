@@ -129,6 +129,7 @@
     gcc
     git
     kitty
+    lf
     lutris
     mangohud
     microsoft-edge

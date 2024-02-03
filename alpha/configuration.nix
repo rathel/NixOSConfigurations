@@ -139,6 +139,7 @@
       gimp
       git
       godot_4
+      lf
       htop
       jq
       kitty

@@ -120,6 +120,7 @@
 			picom
 			protonup-ng
 			pulsemixer
+			lf
 			ripgrep
 			spotifyd
 			tmux
