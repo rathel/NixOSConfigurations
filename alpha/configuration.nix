@@ -25,13 +25,13 @@
     #displayManager.defaultSession = "enlightenment";
     #displayManager.defaultSession = "none+awesome";
     #displayManager.defaultSession = "hyprland";
-    displayManager.defaultSession = "wayfire";
+    #displayManager.defaultSession = "wayfire";
     #desktopManager.enlightenment.enable = true;
-    windowManager.awesome.enable = true;
+    #windowManager.awesome.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
-    #displayManager.gdm.enable = true;
-    #desktopManager.gnome.enable = true;
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
     #displayManager.sddm.enable = true;
     #desktopManager.plasma5.enable = true;
   };
@@ -219,7 +219,8 @@
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-      dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+    gamescopeSession.enable = true;
   };
 
   programs.firefox = { 
