@@ -24,14 +24,14 @@
     enable = true;
     #displayManager.defaultSession = "enlightenment";
     #displayManager.defaultSession = "none+awesome";
-    #displayManager.defaultSession = "hyprland";
+    displayManager.defaultSession = "hyprland";
     #displayManager.defaultSession = "wayfire";
     #desktopManager.enlightenment.enable = true;
     #windowManager.awesome.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
+    #displayManager.gdm.enable = true;
+    #desktopManager.gnome.enable = true;
     #displayManager.sddm.enable = true;
     #desktopManager.plasma5.enable = true;
   };
@@ -152,7 +152,6 @@
       lmms
       lutris
       lxappearance
-      microsoft-edge
       mpv
       mumble
       nmap
@@ -174,8 +173,7 @@
       thunderbird
       variety
       ventoy-full
-      vivaldi
-      vivaldi-ffmpeg-codecs
+      waybar
       w3m 
       wine
       wofi
