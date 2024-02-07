@@ -33,8 +33,10 @@
 	programs.steam.enable = true;
 	programs.steam.gamescopeSession.enable = true;
 	hardware.steam-hardware.enable = true;
+
 	hardware.bluetooth.enable = true;
 	hardware.bluetooth.powerOnBoot = true;
+
 	programs.starship.enable = true;
 
 	networking.hostName = "bravo"; # Define your hostname.
@@ -73,8 +75,8 @@
 
 	services.xserver = { 
 		enable = true;
-		displayManager.defaultSession = "none+openbox";
-		#displayManager.defaultSession = "hyprland";
+		#displayManager.defaultSession = "none+openbox";
+		displayManager.defaultSession = "hyprland";
 		displayManager.autoLogin.enable = true;
 		displayManager.autoLogin.user = "rathel";
 		windowManager.openbox.enable = true;
