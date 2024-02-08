@@ -111,9 +111,11 @@
 	environment.systemPackages = with pkgs; [
 #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
 			bat
+			distrobox
 			fastfetch
 			fd
-			floorp
+			firefox
+			gcc
 			git
 			htop
 			kitty
@@ -125,10 +127,9 @@
 			lf
 			ripgrep
 			spotifyd
+			steamcmd
 			tmux
 			usbutils
-			vivaldi
-			vivaldi-ffmpeg-codecs
 			wget
 	];
 
@@ -151,6 +152,8 @@
 		alsa.support32Bit = true;
 		pulse.enable = true;
 	};
+
+	virtualisation.podman.enable = true;
 
 
 # Open ports in the firewall.
