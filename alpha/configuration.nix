@@ -82,7 +82,7 @@
       enable = true;
       user = "rathel";
       dataDir = "/home/rathel/Documents";    # Default folder for new synced folders
-        configDir = "/home/rathel/Documents/.config/syncthing";   # Folder for Syncthing's settings and keys
+      configDir = "/home/rathel/Documents/.config/syncthing";   # Folder for Syncthing's settings and keys
     };
   };
 
@@ -132,12 +132,13 @@
       blender
       brave
       distrobox
+      dunst
       element-desktop
       eza
       fastfetch 
       fd
+      floorp
       flameshot
-      floorp 
       fuse-common
       gimp
       git
@@ -148,7 +149,6 @@
       kitty
       lftp
       libreoffice-fresh
-      librewolf
       lmms
       lutris
       lxappearance
