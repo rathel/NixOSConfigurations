@@ -137,16 +137,16 @@
       eza
       fastfetch 
       fd
-      floorp
       flameshot
+      floorp
       fuse-common
       gimp
       git
       godot_4
-      lf
       htop
       jq
       kitty
+      lf
       lftp
       libreoffice-fresh
       lmms
@@ -165,6 +165,7 @@
       ripgrep
       rosegarden
       rpi-imager
+      speedtest-rs
       spicetify-cli
       spotify
       sshfs
@@ -173,8 +174,8 @@
       thunderbird
       variety
       ventoy-full
-      waybar
       w3m 
+      waybar
       wine
       wofi
       yt-dlp
