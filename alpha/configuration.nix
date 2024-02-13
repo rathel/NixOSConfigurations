@@ -129,6 +129,7 @@
     packages = with pkgs; [ 
       ardour
       bat
+      bitwarden
       blender
       brave
       distrobox
@@ -152,10 +153,12 @@
       lmms
       lutris
       lxappearance
+      microsoft-edge
       mpv
       mumble
       nmap
       nodejs
+      opera
       persepolis
       picom
       protonup-ng
@@ -174,6 +177,8 @@
       thunderbird
       variety
       ventoy-full
+      vivaldi
+      vivaldi-ffmpeg-codecs
       w3m 
       waybar
       wine
