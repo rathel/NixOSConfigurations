@@ -20,6 +20,11 @@
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
 
+  programs.thunar.enable = true;
+  services.gvfs.enable = true;
+
+  programs.kdeconnect.enable = true;
+
   services.xserver = { 
     enable = true;
     #displayManager.defaultSession = "enlightenment";
@@ -74,6 +79,8 @@
 # If you want to use JACK applications, uncomment this
 #jack.enable = true;
   };
+
+  services.mullvad-vpn.enable = true;
 
   services.zerotierone.enable = true;
 
@@ -163,6 +170,7 @@
       picom
       protonup-ng
       pulsemixer
+      qbittorrent
       qemu
       redshift
       ripgrep
