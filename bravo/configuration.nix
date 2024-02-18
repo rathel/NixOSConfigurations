@@ -157,10 +157,10 @@
 
 
 # Open ports in the firewall.
- networking.firewall.allowedTCPPorts = [ ];
- networking.firewall.allowedUDPPorts = [ 8211 ];
+# networking.firewall.allowedTCPPorts = [ ];
+# networking.firewall.allowedUDPPorts = [ 8211 ];
 # Or disable the firewall altogether.
-# networking.firewall.enable = false;
+ networking.firewall.enable = false;
 
 # This value determines the NixOS release from which the default
 # settings for stateful data, like file locations and database versions

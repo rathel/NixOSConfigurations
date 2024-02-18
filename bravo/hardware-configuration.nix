@@ -28,12 +28,12 @@
       fsType = "ext4";
     };
 
-  fileSystems."/games" =
+  fileSystems."/home/rathel/ex_games" =
     { device = "/dev/disk/by-uuid/d8beab37-9c6d-4dca-b02d-355c8f4c7bbb";
       fsType = "btrfs";
     };
 
-   fileSystems."/games2" =
+   fileSystems."/home/rathel/ex_games2" =
     { device = "/dev/disk/by-uuid/26dc6831-91f9-4904-9fdf-708bd9d0cd66";
       fsType = "ext4";
     };
