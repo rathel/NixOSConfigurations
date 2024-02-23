@@ -136,6 +136,7 @@
     packages = with pkgs; [ 
       ardour
       bat
+      btop
       bitwarden
       blender
       brave
