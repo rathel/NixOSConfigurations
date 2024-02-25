@@ -118,6 +118,7 @@
 			gcc
 			git
 			htop
+			input-leap
 			kitty
 			neovim
 			parted

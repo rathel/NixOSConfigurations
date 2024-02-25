@@ -153,6 +153,7 @@
       git
       godot_4
       htop
+      input-leap
       jq
       kitty
       lf
