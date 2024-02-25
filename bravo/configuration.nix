@@ -76,10 +76,11 @@
 	services.xserver = { 
 		enable = true;
 		#displayManager.defaultSession = "none+openbox";
-		displayManager.defaultSession = "hyprland";
+		displayManager.defaultSession = "plasmawayland";
 		displayManager.autoLogin.enable = true;
 		displayManager.autoLogin.user = "rathel";
 		windowManager.openbox.enable = true;
+		desktopManager.plasma5.enable = true;
 	};
 
 #	services.cage = {
