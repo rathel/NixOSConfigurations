@@ -29,7 +29,7 @@
     enable = true;
     #displayManager.defaultSession = "enlightenment";
     #displayManager.defaultSession = "none+awesome";
-    displayManager.defaultSession = "hyprland";
+    displayManager.defaultSession = "plasmawayland";
     #displayManager.defaultSession = "wayfire";
     #desktopManager.enlightenment.enable = true;
     #windowManager.awesome.enable = true;
@@ -38,7 +38,7 @@
     #displayManager.gdm.enable = true;
     #desktopManager.gnome.enable = true;
     #displayManager.sddm.enable = true;
-    #desktopManager.plasma5.enable = true;
+    desktopManager.plasma5.enable = true;
   };
 
   #services.xserver.videoDrivers = ["nvidia"];
