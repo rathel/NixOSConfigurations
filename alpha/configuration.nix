@@ -39,6 +39,7 @@
     #desktopManager.gnome.enable = true;
     #displayManager.sddm.enable = true;
     desktopManager.plasma5.enable = true;
+    desktopManager.xfce.enable = true;
   };
 
   #services.xserver.videoDrivers = ["nvidia"];
@@ -134,24 +135,24 @@
     description = "rathel";
     extraGroups = [ "networkmanager" "wheel" "lp" "audio" "video" ];
     packages = with pkgs; [ 
-      ardour
+      # ardour
       bat
       btop
       bitwarden
-      blender
+      # blender
       brave
       distrobox
-      dunst
+      # dunst
       element-desktop
       eza
       fastfetch 
       fd
-      flameshot
+      # flameshot
       floorp
       fuse-common
       gimp
       git
-      godot_4
+      # godot_4
       htop
       input-leap
       jq
@@ -159,24 +160,25 @@
       lf
       lftp
       libreoffice-fresh
-      lmms
+      # lmms
       lutris
-      lxappearance
+      # lxappearance
       microsoft-edge
       mpv
       mumble
+      neovide
       nmap
       nodejs
       opera
-      persepolis
-      picom
+      # persepolis
+      # picom
       protonup-ng
       pulsemixer
       qbittorrent
       qemu
-      redshift
+      # redshift
       ripgrep
-      rosegarden
+      # rosegarden
       rpi-imager
       speedtest-rs
       spicetify-cli
