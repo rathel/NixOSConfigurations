@@ -29,6 +29,7 @@
     enable = true;
     #displayManager.defaultSession = "enlightenment";
     #displayManager.defaultSession = "none+awesome";
+    #displayManager.defaultSession = "river";
     displayManager.defaultSession = "plasmawayland";
     #displayManager.defaultSession = "wayfire";
     #desktopManager.enlightenment.enable = true;
@@ -136,23 +137,29 @@
     extraGroups = [ "networkmanager" "wheel" "lp" "audio" "video" ];
     packages = with pkgs; [ 
       # ardour
-      bat
-      btop
-      bitwarden
       # blender
-      brave
-      distrobox
       # dunst
+      # flameshot
+      # godot_4
+      # lmms
+      # lxappearance
+      # persepolis
+      # picom
+      # redshift
+      # rosegarden
+      bat
+      bitwarden
+      brave
+      btop
+      distrobox
       element-desktop
       eza
       fastfetch 
       fd
-      # flameshot
       floorp
       fuse-common
       gimp
       git
-      # godot_4
       htop
       input-leap
       jq
@@ -160,9 +167,7 @@
       lf
       lftp
       libreoffice-fresh
-      # lmms
       lutris
-      # lxappearance
       microsoft-edge
       mpv
       mumble
@@ -170,15 +175,12 @@
       nmap
       nodejs
       opera
-      # persepolis
-      # picom
       protonup-ng
       pulsemixer
+      python3Full
       qbittorrent
       qemu
-      # redshift
       ripgrep
-      # rosegarden
       rpi-imager
       speedtest-rs
       spicetify-cli
@@ -197,6 +199,7 @@
       wofi
       yt-dlp
       zellij
+      zig
       zoxide
       ];
   };
@@ -271,6 +274,8 @@
     xwayland.enable = true;
 #    enableNvidiaPatches = true;
   };
+
+  programs.river.enable = true;
 
 
 # Open ports in the firewall.
