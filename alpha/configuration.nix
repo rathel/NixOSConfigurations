@@ -194,6 +194,7 @@
       ventoy-full
       vivaldi
       vivaldi-ffmpeg-codecs
+      vscodium
       w3m 
       waybar
       wine
