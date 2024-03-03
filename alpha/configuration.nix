@@ -30,17 +30,17 @@
     #displayManager.defaultSession = "enlightenment";
     #displayManager.defaultSession = "none+awesome";
     #displayManager.defaultSession = "river";
-    displayManager.defaultSession = "plasma";
+    #displayManager.defaultSession = "plasmawayland";
     #displayManager.defaultSession = "wayfire";
     #desktopManager.enlightenment.enable = true;
     #windowManager.awesome.enable = true;
-    displayManager.autoLogin.enable = true;
-    displayManager.autoLogin.user = "rathel";
-    #displayManager.gdm.enable = true;
-    # desktopManager.gnome.enable = true;
-    displayManager.sddm.enable = true;
-    desktopManager.plasma6.enable = true;
-    desktopManager.xfce.enable = true;
+    #displayManager.autoLogin.enable = true;
+    #displayManager.autoLogin.user = "rathel";
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
+    #displayManager.sddm.enable = true;
+    #desktopManager.plasma5.enable = true;
+    #desktopManager.xfce.enable = true;
   };
 
   #services.xserver.videoDrivers = ["nvidia"];
@@ -176,6 +176,7 @@
       nmap
       nodejs
       opera
+      plank
       protonup-ng
       pulsemixer
       python3Full
