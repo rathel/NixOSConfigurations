@@ -36,10 +36,10 @@
     #windowManager.awesome.enable = true;
     #displayManager.autoLogin.enable = true;
     #displayManager.autoLogin.user = "rathel";
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
-    #displayManager.sddm.enable = true;
-    #desktopManager.plasma5.enable = true;
+    #displayManager.gdm.enable = true;
+    #desktopManager.gnome.enable = true;
+    displayManager.sddm.enable = true;
+    desktopManager.plasma6.enable = true;
     #desktopManager.xfce.enable = true;
   };
 
@@ -155,6 +155,7 @@
       element-desktop
       eza
       fastfetch 
+      gnome.gnome-tweaks
       fd
       floorp
       fuse-common
@@ -183,6 +184,8 @@
       qbittorrent
       qemu
       ripgrep
+      rustc
+      cargo
       rpi-imager
       speedtest-rs
       spicetify-cli
@@ -191,6 +194,7 @@
       starship
       tealdeer
       thunderbird
+      unzip
       variety
       ventoy-full
       vivaldi
