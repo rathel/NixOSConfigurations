@@ -29,9 +29,9 @@
   services.xserver = { 
     enable = true;
 # displayManager.defaultSession = "none+awesome";
-    displayManager.defaultSession = "plasmawayland";
+    displayManager.defaultSession = "plasma";
     windowManager.awesome.enable = true;
-    desktopManager.plasma5.enable = true;
+    desktopManager.plasma6.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
   };
