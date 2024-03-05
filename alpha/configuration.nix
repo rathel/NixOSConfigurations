@@ -151,20 +151,22 @@
       bitwarden
       brave
       btop
+      cargo
       distrobox
       element-desktop
       eza
       fastfetch 
-      gnome.gnome-tweaks
       fd
       floorp
       fuse-common
       gimp
       git
+      gnome.gnome-tweaks
       htop
       input-leap
       joplin-desktop
       jq
+      kate
       kitty
       lf
       lftp
@@ -184,9 +186,8 @@
       qbittorrent
       qemu
       ripgrep
-      rustc
-      cargo
       rpi-imager
+      rustc
       speedtest-rs
       spicetify-cli
       spotify
