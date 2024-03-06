@@ -30,7 +30,7 @@
     #displayManager.defaultSession = "enlightenment";
     #displayManager.defaultSession = "none+awesome";
     #displayManager.defaultSession = "river";
-    #displayManager.defaultSession = "plasmawayland";
+    #displayManager.defaultSession = "plasma";
     #displayManager.defaultSession = "wayfire";
     #desktopManager.enlightenment.enable = true;
     #windowManager.awesome.enable = true;
@@ -152,10 +152,12 @@
       brave
       btop
       cargo
+      discord
       distrobox
       element-desktop
       eza
       fastfetch 
+      filezilla
       fd
       floorp
       fuse-common
@@ -168,6 +170,7 @@
       jq
       kate
       kitty
+      kmail
       lf
       lftp
       libreoffice-fresh
@@ -200,6 +203,7 @@
       ventoy-full
       vivaldi
       vivaldi-ffmpeg-codecs
+      vlc
       vscodium
       w3m 
       waybar
