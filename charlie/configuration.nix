@@ -136,6 +136,7 @@
     microsoft-edge
     neovim
     ripgrep
+    spotify
     swww
     tmux
     waybar
