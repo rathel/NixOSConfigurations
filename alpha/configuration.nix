@@ -40,6 +40,7 @@
     #desktopManager.gnome.enable = true;
     displayManager.sddm.enable = true;
     desktopManager.plasma6.enable = true;
+    windowManager.qtile.enable = true;
     #desktopManager.xfce.enable = true;
   };
 
