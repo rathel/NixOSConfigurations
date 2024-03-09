@@ -148,6 +148,7 @@
       # picom
       # redshift
       # rosegarden
+      aria2
       bat
       bitwarden
       brave
@@ -169,7 +170,8 @@
       input-leap
       joplin-desktop
       jq
-      kate
+      kdePackages.kate
+      kdePackages.ktorrent
       kitty
       kmail
       lf
@@ -187,7 +189,7 @@
       protonup-ng
       pulsemixer
       python3Full
-      qbittorrent
+      # qbittorrent
       qemu
       ripgrep
       rpi-imager
