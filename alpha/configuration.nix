@@ -191,6 +191,7 @@
       python3Full
       # qbittorrent
       qemu
+      qutebrowser
       ripgrep
       rpi-imager
       rustc
