@@ -168,6 +168,7 @@
       gnome.gnome-tweaks
       htop
       input-leap
+      jetbrains.pycharm-community
       joplin-desktop
       jq
       kdePackages.kate
@@ -192,6 +193,7 @@
       # qbittorrent
       qemu
       qutebrowser
+      qtcreator
       ripgrep
       rpi-imager
       rustc
