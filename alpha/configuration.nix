@@ -25,6 +25,8 @@
 
   programs.kdeconnect.enable = true;
 
+  programs.dconf.enable = true;
+
   services.xserver = { 
     enable = true;
     #displayManager.defaultSession = "enlightenment";
