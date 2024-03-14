@@ -41,10 +41,11 @@
     #displayManager.gdm.enable = true;
     #desktopManager.gnome.enable = true;
     # displayManager.sddm.enable = true;
-    desktopManager.plasma6.enable = true;
     windowManager.qtile.enable = true;
     #desktopManager.xfce.enable = true;
   };
+
+  services.desktopManager.plasma6.enable = true;
 
   #services.xserver.videoDrivers = ["nvidia"];
   #hardware.nvidia = {

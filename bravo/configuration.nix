@@ -80,8 +80,9 @@
 		displayManager.autoLogin.enable = true;
 		displayManager.autoLogin.user = "rathel";
 		windowManager.openbox.enable = true;
-		desktopManager.plasma6.enable = true;
 	};
+
+	services.desktopManager.plasma6.enable = true;
 
 #	services.cage = {
 #		user = "rathel";

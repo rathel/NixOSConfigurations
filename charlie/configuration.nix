@@ -31,10 +31,11 @@
 # displayManager.defaultSession = "none+awesome";
     displayManager.defaultSession = "plasma";
     windowManager.awesome.enable = true;
-    desktopManager.plasma6.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
   };
+
+  services.desktopManager.plasma6.enable = true;
 
   fonts.packages = with pkgs; [
     nerdfonts
