@@ -217,7 +217,7 @@
       vlc
       vscodium
       w3m 
-      waybar
+      # waybar
       wine
       wofi
       yt-dlp
