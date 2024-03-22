@@ -30,7 +30,7 @@
     enable = true;
 # displayManager.defaultSession = "none+awesome";
     displayManager.defaultSession = "plasma";
-    windowManager.awesome.enable = true;
+    # windowManager.awesome.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
   };
@@ -87,10 +87,10 @@
     gamescopeSession.enable = true;
   };
 
-  programs.hyprland = { 
-    enable = true;
-    xwayland.enable = true;
-  };
+  # programs.hyprland = { 
+  #   enable = true;
+  #   xwayland.enable = true;
+  # };
 
   services = {
     syncthing = {
