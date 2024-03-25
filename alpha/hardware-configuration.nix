@@ -43,6 +43,12 @@
      fsType = "nfs";
      options = [ "x-systemd.automount" "noauto" ];
    };
+   
+   fileSystems."/home/rathel/Applications" = {
+     device = "172.23.147.210:/srv/Applications";
+     fsType = "nfs";
+     options = [ "x-systemd.automount" "noauto" ];
+   };
 
   swapDevices = [ 
   { device = "/dev/disk/by-uuid/c2fd42cf-e1fd-4708-9c51-4f4d09ecea8e"; } ];
