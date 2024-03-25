@@ -182,6 +182,7 @@
       kmail
       lf
       lftp
+      librewolf
       libreoffice-fresh
       lutris
       microsoft-edge
