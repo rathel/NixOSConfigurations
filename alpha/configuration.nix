@@ -151,21 +151,23 @@
       # picom
       # redshift
       # rosegarden
+      # qbittorrent
+      # waybar
       aria2
       bat
       bitwarden
       brave
       btop
       cargo
-      chromium
       cdesktopenv
+      chromium
       discord
       distrobox
       element-desktop
       eza
       fastfetch 
-      filezilla
       fd
+      filezilla
       floorp
       fuse-common
       gimp
@@ -182,8 +184,8 @@
       kmail
       lf
       lftp
-      librewolf
       libreoffice-fresh
+      librewolf
       lutris
       microsoft-edge
       mpv
@@ -196,10 +198,9 @@
       protonup-ng
       pulsemixer
       python3Full
-      # qbittorrent
       qemu
-      qutebrowser
       qtcreator
+      qutebrowser
       ripgrep
       rpi-imager
       rustc
@@ -213,12 +214,11 @@
       unzip
       variety
       ventoy-full
-      vivaldi
-      vivaldi-ffmpeg-codecs
+      # vivaldi
+      # vivaldi-ffmpeg-codecs
       vlc
       vscodium
       w3m 
-      # waybar
       wine
       wofi
       yt-dlp
