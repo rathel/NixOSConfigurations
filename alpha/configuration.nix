@@ -32,7 +32,9 @@
     #displayManager.defaultSession = "enlightenment";
     #displayManager.defaultSession = "none+awesome";
     #displayManager.defaultSession = "river";
-    displayManager.defaultSession = "plasma";
+    # displayManager.defaultSession = "plasma";
+    # displayManager.defaultSession = "sway";
+    displayManager.defaultSession = "hyprland";
     #displayManager.defaultSession = "wayfire";
     #desktopManager.enlightenment.enable = true;
     #windowManager.awesome.enable = true;
@@ -45,7 +47,9 @@
     #desktopManager.xfce.enable = true;
   };
 
-  services.desktopManager.plasma6.enable = true;
+  # services.desktopManager.plasma6.enable = true;
+
+  # programs.sway.enable = true;
 
   #services.xserver.videoDrivers = ["nvidia"];
   #hardware.nvidia = {
@@ -149,10 +153,11 @@
       # lxappearance
       # persepolis
       # picom
+      # qbittorrent
       # redshift
       # rosegarden
-      # qbittorrent
-      # waybar
+      waybar
+      alacritty
       aria2
       bat
       bitwarden
@@ -164,6 +169,7 @@
       discord
       distrobox
       element-desktop
+      # eww
       eza
       fastfetch 
       fd
@@ -180,7 +186,6 @@
       jq
       kdePackages.kate
       kdePackages.ktorrent
-      kitty
       kmail
       lf
       lftp
@@ -214,8 +219,8 @@
       unzip
       variety
       ventoy-full
-      # vivaldi
-      # vivaldi-ffmpeg-codecs
+      vivaldi
+      vivaldi-ffmpeg-codecs
       vlc
       vscodium
       w3m 
@@ -257,7 +262,7 @@
       neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   ];
 
-  programs.wayfire.enable = true;
+  # programs.wayfire.enable = true;
 
   programs.steam = {
     enable = true;
@@ -299,7 +304,7 @@
 #    enableNvidiaPatches = true;
   };
 
-  programs.river.enable = true;
+  # programs.river.enable = true;
 
 
 # Open ports in the firewall.
