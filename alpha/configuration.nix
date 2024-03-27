@@ -161,6 +161,7 @@
       aria2
       bat
       bitwarden
+      elixir
       brave
       btop
       cargo
@@ -184,8 +185,8 @@
       jetbrains.pycharm-community
       joplin-desktop
       jq
-      kdePackages.kate
-      kdePackages.ktorrent
+      # kdePackages.kate
+      # kdePackages.ktorrent
       kmail
       lf
       lftp
