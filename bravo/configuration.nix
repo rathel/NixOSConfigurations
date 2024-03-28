@@ -75,8 +75,8 @@
 
 	services.xserver = { 
 		enable = true;
-		#displayManager.defaultSession = "none+openbox";
-		displayManager.defaultSession = "plasma";
+		displayManager.defaultSession = "none+openbox";
+		#displayManager.defaultSession = "plasma";
 		displayManager.autoLogin.enable = true;
 		displayManager.autoLogin.user = "rathel";
 		windowManager.openbox.enable = true;
