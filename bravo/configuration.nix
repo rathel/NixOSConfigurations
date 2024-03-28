@@ -129,7 +129,7 @@
 			pulsemixer
 			lf
 			ripgrep
-			# spotifyd
+			spotifyd
 			steamcmd
 			tmux
 			usbutils
