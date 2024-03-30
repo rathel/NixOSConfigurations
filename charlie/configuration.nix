@@ -29,7 +29,8 @@
   services.xserver = { 
     enable = true;
 # displayManager.defaultSession = "none+awesome";
-    displayManager.defaultSession = "plasma";
+    # displayManager.defaultSession = "plasma";
+    displayManager.defaultSession = "hyprland";
     # windowManager.awesome.enable = true;
     displayManager.autoLogin.enable = true;
     displayManager.autoLogin.user = "rathel";
@@ -87,10 +88,10 @@
     gamescopeSession.enable = true;
   };
 
-  # programs.hyprland = { 
-  #   enable = true;
-  #   xwayland.enable = true;
-  # };
+  programs.hyprland = { 
+    enable = true;
+    xwayland.enable = true;
+  };
 
   services = {
     syncthing = {
@@ -130,7 +131,7 @@
     floorp
     gcc
     git
-    kitty
+    alacritty
     lf
     lutris
     mangohud
