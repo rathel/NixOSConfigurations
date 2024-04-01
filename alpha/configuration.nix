@@ -226,7 +226,7 @@
       vscodium
       w3m 
       wine
-      wofi
+      ulauncher
       yt-dlp
       zellij
       zig

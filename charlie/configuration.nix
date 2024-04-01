@@ -36,7 +36,7 @@
     displayManager.autoLogin.user = "rathel";
   };
 
-  services.desktopManager.plasma6.enable = true;
+  # services.desktopManager.plasma6.enable = true;
 
   fonts.packages = with pkgs; [
     nerdfonts
@@ -145,7 +145,7 @@
     waypaper
     wget
     wine
-    wofi
+    ulauncher
   ];
 
   services.zerotierone.enable = true;
