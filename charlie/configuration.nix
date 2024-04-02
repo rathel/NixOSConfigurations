@@ -145,7 +145,7 @@
     waypaper
     wget
     wine
-    ulauncher
+    fuzzel
   ];
 
   services.zerotierone.enable = true;
