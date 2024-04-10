@@ -116,7 +116,7 @@
 			distrobox
 			fastfetch
 			fd
-			firefox
+			floorp
 			gcc
 			git
 			htop
