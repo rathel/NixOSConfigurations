@@ -129,6 +129,7 @@
     bat
     fd
     floorp
+    font-awesome
     gcc
     git
     alacritty
