@@ -1,7 +1,7 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i bash -p bash git
 
-set -xeuo pipefail
+set -xu 
 
 git pull
 
