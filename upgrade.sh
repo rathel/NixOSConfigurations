@@ -12,3 +12,13 @@ git commit -m "updating flake"
 git push
 
 sudo nixos-rebuild switch --flake .
+
+read -p "Would you like to reboot?\n" answer
+case "$answer" in 
+	Yes|yes|y|Y)
+		sudo reboot
+		;;
+	*)
+		exit
+		;;
+esac

@@ -41,6 +41,7 @@
   fonts.packages = with pkgs; [
     nerdfonts
     intel-one-mono
+    font-awesome
   ];
 
   networking.hostName = "charlie"; # Define your hostname.
@@ -129,7 +130,6 @@
     bat
     fd
     floorp
-    font-awesome
     gcc
     git
     alacritty
