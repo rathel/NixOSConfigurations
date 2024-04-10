@@ -121,8 +121,9 @@
 			gcc
 			git
 			htop
+			rofi
 			input-leap
-			kitty
+			alacritty
 			neovim
 			parted
 			picom

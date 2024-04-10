@@ -8,7 +8,8 @@ git pull
 nix flake update
 
 git add .
-git commit -m "updating flake"
+read -p "Commit Message: " commitmsg
+git commit -m "$commitmsg"
 git push
 
 sudo nixos-rebuild switch --flake .
