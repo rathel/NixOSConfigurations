@@ -160,7 +160,7 @@
       alacritty
       aria2
       bat
-      bitwarden
+      # bitwarden
       elixir
       brave
       btop
