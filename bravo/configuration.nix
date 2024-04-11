@@ -73,6 +73,8 @@
 		xkb.variant = "";
 	};
 
+	services.blueman.enable = true;
+
 	services.xserver = { 
 		enable = true;
 		#displayManager.defaultSession = "none+openbox";
@@ -128,6 +130,7 @@
 			parted
 			picom
 			protonup-ng
+			waybar
 			pulsemixer
 			lf
 			ripgrep
