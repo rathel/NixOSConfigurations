@@ -167,7 +167,7 @@
       cargo
       cdesktopenv
       chromium
-      discord
+      # discord
       distrobox
       element-desktop
       # eww
