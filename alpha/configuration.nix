@@ -236,6 +236,7 @@
 
   fonts.packages = with pkgs; [
   nerdfonts
+  font-awesome
   intel-one-mono
   ];
 

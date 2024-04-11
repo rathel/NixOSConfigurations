@@ -163,6 +163,11 @@
 
 	virtualisation.podman.enable = true;
 
+  fonts.packages = with pkgs; [
+  nerdfonts
+  font-awesome
+  intel-one-mono
+  ];
 
 # Open ports in the firewall.
 # networking.firewall.allowedTCPPorts = [ ];
