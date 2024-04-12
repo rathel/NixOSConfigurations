@@ -46,8 +46,9 @@
 
   services.displayManager = {
     defaultSession = "hyprland";
-    autoLogin = true;
-    # autoLogin.user = "rathel";
+    autoLogin.enable = true;
+    autoLogin.user = "rathel";
+    enable = true;
     };
 
   # services.desktopManager.plasma6.enable = true;
