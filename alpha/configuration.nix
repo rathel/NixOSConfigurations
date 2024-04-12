@@ -48,7 +48,7 @@
     defaultSession = "hyprland";
     autoLogin = true;
     autoLogin.user = "rathel";
-    }
+    };
 
   # services.desktopManager.plasma6.enable = true;
 
