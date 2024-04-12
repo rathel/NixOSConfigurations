@@ -34,18 +34,21 @@
     #displayManager.defaultSession = "river";
     # displayManager.defaultSession = "plasma";
     # displayManager.defaultSession = "sway";
-    displayManager.defaultSession = "hyprland";
     #displayManager.defaultSession = "wayfire";
     #desktopManager.enlightenment.enable = true;
     #windowManager.awesome.enable = true;
-    displayManager.autoLogin.enable = true;
-    displayManager.autoLogin.user = "rathel";
     #displayManager.gdm.enable = true;
     #desktopManager.gnome.enable = true;
     # displayManager.sddm.enable = true;
     windowManager.qtile.enable = true;
     #desktopManager.xfce.enable = true;
   };
+
+  services.displayManager = {
+    defaultSession = "hyprland";
+    autoLogin = true;
+    autoLogin.user = "rathel";
+    }
 
   # services.desktopManager.plasma6.enable = true;
 
