@@ -118,7 +118,7 @@
 # List packages installed in system profile. To search, run:
 # $ nix search wget
 	environment.systemPackages = with pkgs; [
-#  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+			alacritty
 			bat
 			distrobox
 			fastfetch
@@ -127,22 +127,24 @@
 			gcc
 			git
 			htop
-			rofi
 			input-leap
-			alacritty
+			lf
 			neovim
 			parted
 			picom
 			protonup-ng
-			waybar
 			pulsemixer
-			lf
 			ripgrep
+			rofi
 			spotifyd
 			steamcmd
 			tmux
 			usbutils
+			vivaldi
+			vivaldi-ffmpeg-codecs
+			waybar
 			wget
+#  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
 	];
 
 # Some programs need SUID wrappers, can be configured further or are
