@@ -78,12 +78,16 @@
 	services.xserver = { 
 		enable = true;
 		#displayManager.defaultSession = "none+openbox";
-		displayManager.defaultSession = "hyprland";
 		#displayManager.defaultSession = "plasma";
-		displayManager.autoLogin.enable = true;
-		displayManager.autoLogin.user = "rathel";
 		windowManager.openbox.enable = true;
 	};
+
+  services.displayManager = {
+    defaultSession = "hyprland";
+    autoLogin.enable = true;
+    autoLogin.user = "rathel";
+    enable = true;
+    };
 
 	# services.desktopManager.plasma6.enable = true;
 
