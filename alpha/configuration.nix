@@ -230,7 +230,8 @@
       vscodium
       w3m 
       wine
-      ulauncher
+      # ulauncher
+      fuzzel
       yt-dlp
       zellij
       zig
