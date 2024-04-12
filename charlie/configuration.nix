@@ -30,11 +30,15 @@
     enable = true;
 # displayManager.defaultSession = "none+awesome";
     # displayManager.defaultSession = "plasma";
-    displayManager.defaultSession = "hyprland";
     # windowManager.awesome.enable = true;
-    displayManager.autoLogin.enable = true;
-    displayManager.autoLogin.user = "rathel";
   };
+
+  services.displayManager = {
+    defaultSession = "hyprland";
+    autoLogin.enable = true;
+    autoLogin.user = "rathel";
+    enable = true;
+    };
 
   # services.desktopManager.plasma6.enable = true;
 
@@ -127,17 +131,19 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    alacritty
     bat
     fd
     floorp
+    fuzzel
     gcc
     git
-    alacritty
     lf
     lutris
     mangohud
     microsoft-edge
     neovim
+    pulsemixer
     ripgrep
     spotify
     swww
@@ -146,7 +152,6 @@
     waypaper
     wget
     wine
-    fuzzel
   ];
 
   services.zerotierone.enable = true;
