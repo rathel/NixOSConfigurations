@@ -120,6 +120,7 @@
 	environment.systemPackages = with pkgs; [
 			alacritty
 			bat
+			brave
 			distrobox
 			fastfetch
 			fd
