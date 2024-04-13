@@ -150,37 +150,43 @@
     packages = with pkgs; [ 
       # ardour
       # blender
-      # dunst
+      # cdesktopenv
+      # discord
+      # elixir
+      # eww
       # flameshot
       # godot_4
+      # kdePackages.kate
+      # kdePackages.ktorrent
+      # kmail
       # lmms
       # lxappearance
       # persepolis
       # picom
+      # plank
       # qbittorrent
       # redshift
       # rosegarden
-      waybar
+      # ulauncher
+      # vscodium
       alacritty
       aria2
       bat
-      # bitwarden
-      elixir
+      bitwarden
       brave
       btop
       cargo
-      cdesktopenv
       chromium
-      # discord
       distrobox
+      dunst
       element-desktop
-      # eww
       eza
       fastfetch 
       fd
       filezilla
       floorp
       fuse-common
+      fuzzel
       gimp
       git
       gnome.gnome-tweaks
@@ -189,9 +195,6 @@
       jetbrains.pycharm-community
       joplin-desktop
       jq
-      # kdePackages.kate
-      # kdePackages.ktorrent
-      kmail
       lf
       lftp
       libreoffice-fresh
@@ -204,7 +207,6 @@
       nmap
       nodejs
       opera
-      plank
       protonup-ng
       pulsemixer
       python3Full
@@ -227,11 +229,9 @@
       vivaldi
       vivaldi-ffmpeg-codecs
       vlc
-      vscodium
       w3m 
+      waybar
       wine
-      # ulauncher
-      fuzzel
       yt-dlp
       zellij
       zig
