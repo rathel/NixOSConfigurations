@@ -181,10 +181,12 @@
       dunst
       element-desktop
       eza
+      rustdesk
       fastfetch 
       fd
       filezilla
       floorp
+      heroic
       fuse-common
       fuzzel
       gimp

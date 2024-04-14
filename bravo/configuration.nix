@@ -123,8 +123,11 @@
 			brave
 			distrobox
 			fastfetch
+			fuzzel
+			rustdesk
 			fd
 			floorp
+			heroic
 			gcc
 			git
 			htop

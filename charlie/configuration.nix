@@ -134,6 +134,7 @@
     bat
     fd
     floorp
+    heroic
     fuzzel
     gcc
     git
