@@ -127,6 +127,7 @@
 			rustdesk
 			fd
 			floorp
+			zoxide
 			heroic
 			gcc
 			git
