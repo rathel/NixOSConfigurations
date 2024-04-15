@@ -112,6 +112,10 @@
 		packages = with pkgs; [];
 	};
 
+	programs.bash.shellInit = ''
+	eval "$(zoxide init bash)"
+	'';
+
 # Allow unfree packages
 	nixpkgs.config.allowUnfree = true;
 
