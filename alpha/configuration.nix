@@ -172,6 +172,7 @@
       alacritty
       aria2
       bat
+      beeper
       bitwarden
       brave
       btop
@@ -181,17 +182,16 @@
       dunst
       element-desktop
       eza
-      rustdesk
       fastfetch 
       fd
       filezilla
       floorp
-      heroic
       fuse-common
       fuzzel
       gimp
       git
       gnome.gnome-tweaks
+      heroic
       htop
       input-leap
       jetbrains.pycharm-community
@@ -218,6 +218,7 @@
       ripgrep
       rpi-imager
       rustc
+      rustdesk
       speedtest-rs
       spicetify-cli
       spotify
