@@ -143,6 +143,7 @@
     lutris
     mangohud
     microsoft-edge
+    neovide
     neovim
     pulsemixer
     ripgrep
