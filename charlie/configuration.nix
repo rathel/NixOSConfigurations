@@ -158,6 +158,7 @@
   ];
 
   programs.thunar.enable = true;
+  programs.thunar.plugins = with pkgs.xfce; [ thunar-volman ];
 
   services.zerotierone.enable = true;
 
