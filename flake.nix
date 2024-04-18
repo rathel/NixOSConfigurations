@@ -16,7 +16,7 @@
 			inherit system;
 			modules = [ ./alpha/configuration.nix 
 				home-manager.nixosModules.home-manager {
-					home-manager.useGlobalpkgs = true;
+					home-manager.useGlobalPkgs = true;
 					home-manager.useUserPackages = true;
 					home-manager.users.rathel = import ./home.nix; 
 				}
