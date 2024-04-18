@@ -44,7 +44,7 @@
 				home-manager.useGlobalpkgs = true;
 			 	home-manager.useUserPackages = true;
 			 	home-manager.users = { inherit username;
-			 	import = ./common-home.nix; };
+			 	import = ./home.nix; };
 			 	}
 			 	];
 				};
