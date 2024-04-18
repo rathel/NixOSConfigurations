@@ -178,7 +178,7 @@
      enableSSHSupport = true;
    };
 
-   programs.starship.enable = true;
+   # programs.starship.enable = true;
 
   # List services that you want to enable:
 

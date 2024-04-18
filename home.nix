@@ -5,6 +5,13 @@
   # paths it should manage.
   home.homeDirectory = "/home/rathel";
 
+  programs.zsh = { enable = true;
+    autosuggestion.enable = true;
+    syntaxHighlighting.enable = true;
+    };
+
+  programs.starship.enable = true;
+
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
   # when a new Home Manager release introduces backwards
