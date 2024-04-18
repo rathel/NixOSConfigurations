@@ -40,7 +40,7 @@
     enable = true;
     };
 
-    sevices.blueman.enable = true;
+    services.blueman.enable = true;
 
   # services.desktopManager.plasma6.enable = true;
 
