@@ -41,7 +41,7 @@
 			inherit system;
 			modules = [ ./charlie/configuration.nix 
 			home-manager.nixosModules.home-manager {
-				home-manager.useGlobalpkgs = true;
+				home-manager.useGlobalPkgs = true;
 			 	home-manager.useUserPackages = true;
 			 	home-manager.users = { inherit username;
 			 	import = ./home.nix; };
