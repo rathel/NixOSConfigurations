@@ -15,25 +15,23 @@
 		nixosConfigurations.alpha = nixpkgs.lib.nixosSystem {
 			inherit system;
 			modules = [ ./alpha/configuration.nix 
-				# home-manager.nixosModules.home-manager {
-				# 	home-manager.useGlobalpkgs = true;
-				# 	home-manager.useUserPackages = true;
-				# 	home-manager.users = { inherit username;
-				# 	import = ./common-home.nix; };
-				# }
+				home-manager.nixosModules.home-manager {
+					home-manager.useGlobalpkgs = true;
+					home-manager.useUserPackages = true;
+					home-manager.users.rathel = import ./home.nix; 
+				}
 				];
 		};
 
 		nixosConfigurations.bravo = nixpkgs.lib.nixosSystem {
 			inherit system;
 			modules = [ ./bravo/configuration.nix 
-			# home-manager.nixosModules.home-manager {
-			# 		home-manager.useGlobalpkgs = true;
-			# 		home-manager.useUserPackages = true;
-			# 		home-manager.users = { inherit username;
-			# 		import = ./common-home.nix; };
-			# 	}
-			 	];
+			home-manager.nixosModules.home-manager {
+				home-manager.useGlobalPkgs = true;
+			 	home-manager.useUserPackages = true;
+			 	home-manager.users.rathel = import ./home.nix; 
+				}
+				];
 				};
 
 
@@ -43,7 +41,7 @@
 			home-manager.nixosModules.home-manager {
 				home-manager.useGlobalPkgs = true;
 			 	home-manager.useUserPackages = true;
-			 	home-manager.users.${username} = import ./home.nix; 
+			 	home-manager.users.rathel = import ./home.nix; 
 				}
 			 	];
 				};
