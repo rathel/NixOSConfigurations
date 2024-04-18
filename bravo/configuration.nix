@@ -126,15 +126,14 @@
 			bat
 			brave
 			distrobox
+			dunst
 			fastfetch
-			fuzzel
-			rustdesk
 			fd
 			floorp
-			zoxide
-			heroic
+			fuzzel
 			gcc
 			git
+			heroic
 			htop
 			input-leap
 			lf
@@ -145,6 +144,7 @@
 			pulsemixer
 			ripgrep
 			rofi
+			rustdesk
 			spotifyd
 			steamcmd
 			tmux
@@ -153,6 +153,7 @@
 			vivaldi-ffmpeg-codecs
 			waybar
 			wget
+			zoxide
 #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
 	];
 
