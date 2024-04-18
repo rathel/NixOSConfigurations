@@ -154,7 +154,7 @@
     swww
     tmux
     waybar
-    waypaper
+    wl-clipboard
     wget
     wine
     zoxide
@@ -165,6 +165,8 @@
   programs.thunar.plugins = with pkgs.xfce; [ thunar-volman ];
 
   services.zerotierone.enable = true;
+
+  services.gvfs.enable = true;
 
   services.mullvad-vpn.enable = true;
 

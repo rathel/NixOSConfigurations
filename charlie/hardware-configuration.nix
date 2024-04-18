@@ -33,6 +33,12 @@
       fsType = "btrfs";
     };
 
+   fileSystems."/home/rathel/Downloads" = {
+     device = "172.23.147.210:/home/rathel/Downloads";
+     fsType = "nfs";
+     options = [ "x-systemd.automount" "noauto" ];
+   };
+   
   # Enable OpenGL
   hardware.opengl = {
     enable = true;
