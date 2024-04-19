@@ -34,6 +34,15 @@
 	programs.steam.gamescopeSession.enable = true;
 	hardware.steam-hardware.enable = true;
 
+	programs.zsh = {
+		enable = true;
+		syntaxHighlighting.enable = true;
+		enableCompletion = true;
+		interactiveShellInit = ''
+			eval "$(zoxide init zsh)"
+			'';
+	};
+
 	hardware.bluetooth.enable = true;
 	hardware.bluetooth.powerOnBoot = true;
 
@@ -109,12 +118,9 @@
 		isNormalUser = true;
 		description = "rathel";
 		extraGroups = [ "networkmanager" "wheel" "lp" ];
+		shell = pkgs.zsh;
 		packages = with pkgs; [];
 	};
-
-	programs.bash.shellInit = ''
-	eval "$(zoxide init bash)"
-	'';
 
 # Allow unfree packages
 	nixpkgs.config.allowUnfree = true;
