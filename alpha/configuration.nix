@@ -240,6 +240,7 @@
       jq
       kdePackages.breeze
       kdePackages.breeze-icons
+      kdePackages.gwenview
       kdePackages.dolphin
       kdePackages.qt6ct
       lf
