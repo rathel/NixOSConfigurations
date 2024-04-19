@@ -20,17 +20,20 @@
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
 
-  programs.thunar.enable = true;
-  services.gvfs.enable = true;
-
   programs.kdeconnect.enable = true;
 
   programs.dconf.enable = true;
+
+  qt.platformTheme = "qt6ct";
+  qt.style = "breeze";
 
   programs.zsh = {
     enable = true;
     syntaxHighlighting.enable = true;
     enableCompletion = true;
+    interactiveShellInit = ''
+      eval "$(zoxide init zsh)"
+    '';
     };
 
   services.xserver = { 
@@ -193,6 +196,14 @@
       fd
       filezilla
       floorp
+      lxqt.lxqt-config
+      kdePackages.dolphin
+      kdePackages.qt6ct
+      kdePackages.breeze
+      kdePackages.breeze-icons
+      adwaita-qt6
+      gnome.adwaita-icon-theme
+      digikam
       fuse-common
       fuzzel
       gimp
