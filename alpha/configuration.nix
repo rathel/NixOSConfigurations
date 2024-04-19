@@ -27,6 +27,12 @@
 
   programs.dconf.enable = true;
 
+  programs.zsh = {
+    enable = true;
+    syntaxHighlighting.enable = true;
+    enableCompletion = true;
+    };
+
   services.xserver = { 
     enable = true;
     #displayManager.defaultSession = "enlightenment";
@@ -146,6 +152,7 @@
   users.users.rathel = {
     isNormalUser = true;
     description = "rathel";
+    shell = pkgs.zsh;
     extraGroups = [ "networkmanager" "wheel" "lp" "audio" "video" ];
     packages = with pkgs; [ 
       # ardour
