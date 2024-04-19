@@ -158,105 +158,6 @@
     shell = pkgs.zsh;
     extraGroups = [ "networkmanager" "wheel" "lp" "audio" "video" ];
     packages = with pkgs; [ 
-      # ardour
-      # blender
-      # cdesktopenv
-      # discord
-      # elixir
-      # eww
-      # flameshot
-      # godot_4
-      # kdePackages.kate
-      # kdePackages.ktorrent
-      # kmail
-      # lmms
-      # lxappearance
-      # persepolis
-      # picom
-      # plank
-      # qbittorrent
-      # redshift
-      # rosegarden
-      # ulauncher
-      # vscodium
-      alacritty
-      aria2
-      bat
-      beeper
-      bitwarden
-      brave
-      btop
-      cargo
-      chromium
-      distrobox
-      dunst
-      element-desktop
-      eza
-      fastfetch 
-      fd
-      filezilla
-      floorp
-      lxqt.lxqt-config
-      kdePackages.dolphin
-      kdePackages.qt6ct
-      kdePackages.breeze
-      kdePackages.breeze-icons
-      adwaita-qt6
-      gnome.adwaita-icon-theme
-      digikam
-      fuse-common
-      fuzzel
-      gimp
-      git
-      gnome.gnome-tweaks
-      heroic
-      htop
-      input-leap
-      jetbrains.pycharm-community
-      joplin-desktop
-      jq
-      lf
-      lftp
-      libreoffice-fresh
-      librewolf
-      lutris
-      microsoft-edge
-      mpv
-      mumble
-      neovide
-      nmap
-      nodejs
-      opera
-      protonup-ng
-      pulsemixer
-      python3Full
-      qemu
-      qtcreator
-      qutebrowser
-      ripgrep
-      rpi-imager
-      rustc
-      rustdesk
-      speedtest-rs
-      spicetify-cli
-      spotify
-      sshfs
-      starship
-      tealdeer
-      thunderbird
-      unzip
-      variety
-      ventoy-full
-      vivaldi
-      vivaldi-ffmpeg-codecs
-      vlc
-      w3m 
-      waybar
-      wine
-      yt-dlp
-      zellij
-      zig
-      zoxide
       ];
   };
 
@@ -282,12 +183,111 @@
 # List packages installed in system profile. To search, run:
 # $ nix search wget
   environment.systemPackages = with pkgs; [
+       # ardour
+      # blender
+      # cdesktopenv
+      # discord
+      # elixir
+      # eww
+      # flameshot
+      # godot_4
+      # kdePackages.kate
+      # kdePackages.ktorrent
+      # kmail
+      # lmms
+      # lxappearance
+      # persepolis
+      # picom
+      # plank
+      # qbittorrent
+      # redshift
+      # rosegarden
+      # ulauncher
+      # vscodium
+      adwaita-qt6
+      alacritty
       appimage-run
-      usbimager
+      aria2
+      bat
+      beeper
+      bitwarden
+      brave
       broadcom-bt-firmware
+      btop
+      cargo
+      chromium
       cryptsetup
+      digikam
+      distrobox
+      dunst
+      element-desktop
+      eza
+      fastfetch 
+      fd
+      filezilla
+      floorp
+      fuse-common
+      fuzzel
+      gimp
+      git
+      gnome.adwaita-icon-theme
+      # gnome.gnome-tweaks
+      heroic
+      htop
+      input-leap
+      jetbrains.pycharm-community
+      joplin-desktop
+      jq
+      kdePackages.breeze
+      kdePackages.breeze-icons
+      kdePackages.dolphin
+      kdePackages.qt6ct
+      lf
+      lftp
+      libreoffice-fresh
+      librewolf
+      lutris
+      lxqt.lxqt-config
+      microsoft-edge
+      mpv
+      mumble
+      neovide
+      neovim
+      nmap
+      nodejs
+      opera
+      protonup-ng
+      pulsemixer
+      python3Full
+      qemu
+      qtcreator
+      qutebrowser
+      ripgrep
+      rpi-imager
+      rustc
+      rustdesk
+      speedtest-rs
+      # spicetify-cli
+      spotify
+      sshfs
+      starship
+      tealdeer
+      thunderbird
+      unzip
+      usbimager
+      # variety
+      ventoy-full
+      vivaldi
+      vivaldi-ffmpeg-codecs
+      vlc
+      w3m 
+      waybar
+      wine
+      yt-dlp
+      zellij
+      zig
+      zoxide
       wget
-      neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   ];
 
   # programs.wayfire.enable = true;
