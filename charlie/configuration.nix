@@ -33,6 +33,15 @@
     # windowManager.awesome.enable = true;
   };
 
+  programs.zsh = {
+    enable = true;
+    syntaxHighlighting.enable = true;
+    enableCompletion = true;
+    interactiveShellInit = ''
+      eval "$(zoxide init zsh)"
+    '';
+    };
+
   services.displayManager = {
     defaultSession = "hyprland";
     autoLogin.enable = true;
@@ -120,6 +129,7 @@
     isNormalUser = true;
     description = "rathel";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh;
     packages = with pkgs; [];
   };
 
