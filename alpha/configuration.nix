@@ -270,7 +270,6 @@
       # spicetify-cli
       spotify
       sshfs
-      starship
       tealdeer
       thunderbird
       unzip
@@ -291,6 +290,8 @@
   ];
 
   # programs.wayfire.enable = true;
+
+  programs.starship.enable = true;
 
   programs.steam = {
     enable = true;
