@@ -143,6 +143,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     alacritty
+    kitty
     bat
     beeper
     fd
