@@ -148,6 +148,7 @@
     beeper
     fd
     floorp
+    appimage-run
     fuzzel
     gcc
     git
