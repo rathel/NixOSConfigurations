@@ -148,6 +148,7 @@
     beeper
     fd
     floorp
+    qutebrowser
     appimage-run
     fuzzel
     gcc
