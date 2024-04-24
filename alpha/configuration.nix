@@ -206,6 +206,7 @@
       # vscodium
       adwaita-qt6
       alacritty
+      kitty
       appimage-run
       aria2
       bat
