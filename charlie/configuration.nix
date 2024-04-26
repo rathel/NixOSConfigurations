@@ -143,17 +143,17 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     alacritty
-    kitty
+    appimage-run
     bat
     beeper
     fd
     floorp
-    qutebrowser
-    appimage-run
     fuzzel
     gcc
+    gimp
     git
     heroic
+    kitty
     lf
     lutris
     mangohud
@@ -162,14 +162,15 @@
     neovide
     neovim
     pulsemixer
+    qutebrowser
     ripgrep
     spotify
     swww
     tmux
     waybar
-    wl-clipboard
     wget
     wine
+    wl-clipboard
     zoxide
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   ];
