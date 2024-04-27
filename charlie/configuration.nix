@@ -146,6 +146,7 @@
     appimage-run
     bat
     beeper
+    dunst
     fd
     floorp
     fuzzel
