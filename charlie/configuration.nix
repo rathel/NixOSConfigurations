@@ -154,6 +154,7 @@
     gimp
     git
     heroic
+    inkscape
     kitty
     lf
     lutris
