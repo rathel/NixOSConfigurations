@@ -163,6 +163,7 @@
     mpv
     neovide
     neovim
+    protonup-qt
     pulsemixer
     qutebrowser
     ripgrep
