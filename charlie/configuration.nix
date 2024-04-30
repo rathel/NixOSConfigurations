@@ -24,6 +24,7 @@
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   virtualisation.libvirtd.enable = true;
+  virtualisation.virtualbox.host.enable = true;
   programs.virt-manager.enable = true;
 
   services.xserver = { 
@@ -128,7 +129,7 @@
   users.users.rathel = {
     isNormalUser = true;
     description = "rathel";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" "vboxusers" ];
     shell = pkgs.zsh;
     packages = with pkgs; [];
   };
